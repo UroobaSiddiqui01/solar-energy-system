@@ -11,7 +11,7 @@ const HomeInstallationSection: React.FC = () => {
           {/* Top Section: One Horizontal Image */}
           <div className="relative w-full h-48 sm:h-52 md:h-60 lg:h-64">
             <Image 
-              src="/installer-1.webp" 
+              src="/depositphotos_651912482-stock-photo-technician-holding-collector-solar-farm.jpg" 
               alt="Project Image" 
               layout="responsive"
               width={500} 
