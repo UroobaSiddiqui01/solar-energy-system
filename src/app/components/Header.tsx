@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-yellow-600 text-white p-4">
+    <header className="bg-yellow-600 text-white p-4 fixed top-0 w-full z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">Mezan</h1>
 
@@ -56,5 +56,6 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
 
 

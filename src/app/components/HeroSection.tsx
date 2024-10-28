@@ -4,10 +4,10 @@ const HeroSection: React.FC = () => {
       className="bg-gray-900 text-white py-10 sm:py-16 md:py-20 bg-cover bg-center"
       style={{ backgroundImage: "url('/hero-ima.jpeg')" }}
     >
-      <div className="container mx-auto flex flex-col md:flex-row items-center bg-black bg-opacity-50 p-6 sm:p-8 md:p-10 rounded-lg">
+      <div className="container mx-auto flex flex-col items-center justify-center bg-black bg-opacity-50 p-6 sm:p-8 md:p-10 rounded-lg text-center">
         
         {/* Content Section */}
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="w-full md:w-1/2">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
             Honest, Trustworthy, And Does Good Work
           </h2>
@@ -24,5 +24,6 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
+
 
 

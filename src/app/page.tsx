@@ -11,9 +11,9 @@ const Home: React.FC = () => {
     <div>
       <Header />
       <HeroSection />
-      <HomeInstallationSection/>
-      <ServicesSection />
-      <AboutUsSection />
+      <HomeInstallationSection/>    
+        <AboutUsSection />
+        <ServicesSection />
       <TestimonialsSection />
       
       <Footer />
