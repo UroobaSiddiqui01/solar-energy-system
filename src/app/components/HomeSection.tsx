@@ -7,7 +7,7 @@ const HomeInstallationSection: React.FC = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-start gap-8 px-4 sm:px-6 lg:px-8">
         
         {/* Left Side: Images and Stats */}
-        <div className="lg:w-1/2 grid gap-4">
+        <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-4">
           {/* Top Section: One Horizontal Image */}
           <div className="relative w-full h-48 sm:h-52 md:h-60 lg:h-64">
             <Image 
@@ -25,7 +25,7 @@ const HomeInstallationSection: React.FC = () => {
           </div>
           
           {/* Bottom Section: Two Vertical Stacked Images */}
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-2 gap-2 justify-center lg:justify-start">
             <div className="relative w-full h-36 sm:h-40 md:h-48">
               <Image 
                 src="/images.jpeg" 
@@ -102,6 +102,7 @@ const HomeInstallationSection: React.FC = () => {
 };
 
 export default HomeInstallationSection;
+
 
 
 
