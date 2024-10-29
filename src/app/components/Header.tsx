@@ -28,7 +28,11 @@ const Header: React.FC = () => {
 
         {/* Button on the Right */}
         <div className="hidden md:block">
-          <Link href="/resume" className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+          <Link
+            href="/resume.pdf"
+            download
+            className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600"
+          >
             Download Resume
           </Link>
         </div>
@@ -58,7 +62,12 @@ const Header: React.FC = () => {
           <Link href="/#contact" className="block" onClick={toggleMenu}>
             Contact
           </Link>
-          <Link href="/resume" className="block bg-yellow-500 text-white px-4 py-2 rounded text-center hover:bg-yellow-600" onClick={toggleMenu}>
+          <Link
+            href="/resume.pdf"
+            download
+            className="block bg-yellow-500 text-white px-4 py-2 rounded text-center hover:bg-yellow-600"
+            onClick={toggleMenu}
+          >
             Download Resume
           </Link>
         </nav>
@@ -68,6 +77,7 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
 
 
 

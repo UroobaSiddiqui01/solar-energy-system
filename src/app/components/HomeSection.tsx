@@ -19,7 +19,7 @@ const HomeInstallationSection: React.FC = () => {
               className="rounded-lg shadow-lg object-cover w-full h-full" 
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white p-2 sm:p-4 rounded-lg">
-              <h4 className="text-base sm:text-lg md:text-xl font-bold">560+</h4>
+              <h4 className="text-lg sm:text-xl md:text-2xl font-bold">560+</h4>
               <p className="text-xs sm:text-sm">Projects Done</p>
             </div>
           </div>
@@ -59,37 +59,39 @@ const HomeInstallationSection: React.FC = () => {
         
         {/* Right Side: Information */}
         <div className="lg:w-1/2 text-center lg:text-left space-y-4 sm:space-y-6">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">Home And Businesses Installation Services</h3>
-          <p className="text-sm sm:text-base mb-4 sm:mb-6">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-gray-900">
+            Home And Businesses Installation Services
+          </h3>
+          <p className="text-base sm:text-lg md:text-xl text-gray-800 mb-4 sm:mb-6">
             We provide hassle-free installation services for homes and businesses. Our skilled technicians ensure top-notch solutions tailored to your needs.
           </p>
           <div className="space-y-3 sm:space-y-4">
             <div className="flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2 sm:space-x-3">
-              <FaHandshake className="text-yellow-500 text-lg sm:text-xl md:text-2xl" />
+              <FaHandshake className="text-yellow-500 text-xl sm:text-2xl md:text-3xl" />
               <div className="text-center lg:text-left">
-                <h4 className="text-sm sm:text-md md:text-lg font-semibold">Earliest Consultation</h4>
-                <p className="text-xs sm:text-sm">Get an early consultation to discuss your project needs and requirements.</p>
+                <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">Earliest Consultation</h4>
+                <p className="text-sm sm:text-base text-gray-700">Get an early consultation to discuss your project needs and requirements.</p>
               </div>
             </div>
             <div className="flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2 sm:space-x-3">
-              <FaCogs className="text-yellow-500 text-lg sm:text-xl md:text-2xl" />
+              <FaCogs className="text-yellow-500 text-xl sm:text-2xl md:text-3xl" />
               <div className="text-center lg:text-left">
-                <h4 className="text-sm sm:text-md md:text-lg font-semibold">Customized Solution</h4>
-                <p className="text-xs sm:text-sm">Our solutions are tailored to meet specific client requirements for optimal results.</p>
+                <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">Customized Solution</h4>
+                <p className="text-sm sm:text-base text-gray-700">Our solutions are tailored to meet specific client requirements for optimal results.</p>
               </div>
             </div>
             <div className="flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2 sm:space-x-3">
-              <FaDollarSign className="text-yellow-500 text-lg sm:text-xl md:text-2xl" />
+              <FaDollarSign className="text-yellow-500 text-xl sm:text-2xl md:text-3xl" />
               <div className="text-center lg:text-left">
-                <h4 className="text-sm sm:text-md md:text-lg font-semibold">Affordable Pricing</h4>
-                <p className="text-xs sm:text-sm">We offer competitive pricing without compromising on quality and service.</p>
+                <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">Affordable Pricing</h4>
+                <p className="text-sm sm:text-base text-gray-700">We offer competitive pricing without compromising on quality and service.</p>
               </div>
             </div>
             <div className="flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2 sm:space-x-3">
-              <FaTools className="text-yellow-500 text-lg sm:text-xl md:text-2xl" />
+              <FaTools className="text-yellow-500 text-xl sm:text-2xl md:text-3xl" />
               <div className="text-center lg:text-left">
-                <h4 className="text-sm sm:text-md md:text-lg font-semibold">All-In-One Service</h4>
-                <p className="text-xs sm:text-sm">From consultation to installation, we provide comprehensive solutions.</p>
+                <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">All-In-One Service</h4>
+                <p className="text-sm sm:text-base text-gray-700">From consultation to installation, we provide comprehensive solutions.</p>
               </div>
             </div>
           </div>
@@ -100,6 +102,7 @@ const HomeInstallationSection: React.FC = () => {
 };
 
 export default HomeInstallationSection;
+
 
 
 
